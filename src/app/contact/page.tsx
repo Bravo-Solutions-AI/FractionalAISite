@@ -167,10 +167,14 @@ export default function ContactPage() {
                     method="POST"
                     action="/success"
                     data-netlify="true"
+                    data-netlify-honeypot="bot-field"
                     onSubmit={handleSubmit} 
                     className="space-y-6"
                   >
                     <input type="hidden" name="form-name" value="contact" />
+                    <p style={{ display: 'none' }}>
+                      <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+                    </p>
                     <div className="grid md:grid-cols-2 gap-6">
                       <div>
                         <label htmlFor="name" className="block text-sm font-medium text-mono-700 mb-2">

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Test Form - Netlify Forms</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    form { max-width: 500px; }
+    label { display: block; margin: 10px 0 5px; }
+    input, select, textarea { width: 100%; padding: 8px; margin-bottom: 10px; }
+    button { background: #0066cc; color: white; padding: 10px 20px; border: none; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>Test Contact Form</h1>
+  <p>This is a test form to verify Netlify Forms detection.</p>
+  
+  <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/success">
+    <p style="display: none;">
+      <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+    </p>
+    
+    <label for="name">Name (required):</label>
+    <input type="text" id="name" name="name" required />
+    
+    <label for="email">Email (required):</label>
+    <input type="email" id="email" name="email" required />
+    
+    <label for="company">Company (required):</label>
+    <input type="text" id="company" name="company" required />
+    
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" name="phone" />
+    
+    <label for="service">Service:</label>
+    <select id="service" name="service">
+      <option value="">Select a role</option>
+      <option value="fractional-cfo">Fractional CFO + AI</option>
+      <option value="fractional-cto">Fractional CTO + AI</option>
+      <option value="fractional-cmo">Fractional CMO + AI</option>
+      <option value="fractional-coo">Fractional COO + AI</option>
+      <option value="multiple">Multiple Roles</option>
+      <option value="unsure">Not Sure Yet</option>
+    </select>
+    
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="5"></textarea>
+    
+    <button type="submit">Submit Test Form</button>
+  </form>
+  
+  <p><a href="/contact">← Back to main contact page</a></p>
+</body>
+</html>

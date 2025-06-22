@@ -1,26 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Form Detection</title>
+  <title>Netlify Forms</title>
 </head>
 <body>
-  <!-- Netlify Forms Detection -->
-  <form name="contact" netlify netlify-honeypot="bot-field" hidden>
-    <input name="name" type="text" />
-    <input name="email" type="email" />
-    <input name="company" type="text" />
-    <input name="phone" type="tel" />
-    <select name="service">
-      <option value="">Select a role</option>
-      <option value="fractional-cfo">Fractional CFO + AI</option>
-      <option value="fractional-cto">Fractional CTO + AI</option>
-      <option value="fractional-cmo">Fractional CMO + AI</option>
-      <option value="fractional-coo">Fractional COO + AI</option>
-      <option value="multiple">Multiple Roles</option>
-      <option value="unsure">Not Sure Yet</option>
-    </select>
-    <textarea name="message"></textarea>
-    <div netlify-recaptcha="true"></div>
+  <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+    <p style="display: none;">
+      <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+    </p>
+    <p>
+      <label>Name: <input type="text" name="name" required /></label>
+    </p>
+    <p>
+      <label>Email: <input type="email" name="email" required /></label>
+    </p>
+    <p>
+      <label>Company: <input type="text" name="company" required /></label>
+    </p>
+    <p>
+      <label>Phone: <input type="tel" name="phone" /></label>
+    </p>
+    <p>
+      <label>Service: 
+        <select name="service">
+          <option value="">Select a role</option>
+          <option value="fractional-cfo">Fractional CFO + AI</option>
+          <option value="fractional-cto">Fractional CTO + AI</option>
+          <option value="fractional-cmo">Fractional CMO + AI</option>
+          <option value="fractional-coo">Fractional COO + AI</option>
+          <option value="multiple">Multiple Roles</option>
+          <option value="unsure">Not Sure Yet</option>
+        </select>
+      </label>
+    </p>
+    <p>
+      <label>Message: <textarea name="message"></textarea></label>
+    </p>
+    <p>
+      <button type="submit">Send</button>
+    </p>
   </form>
 </body>
 </html>

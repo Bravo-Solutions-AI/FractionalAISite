@@ -8,6 +8,14 @@
 [build.environment]
   NODE_VERSION = "18"
 
+# Enable Netlify Forms
+[functions]
+  directory = "netlify/functions"
+
+[forms]
+  # Enable form detection
+  auto = true
+
 # Form processing settings
 [build.processing]
   skip_processing = false
