@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Forms Detection</title>
+  <title>Form Detection</title>
 </head>
 <body>
-  <!-- Contact Form for Netlify Detection -->
-  <form name="contact" data-netlify="true" data-netlify-honeypot="bot-field" hidden>
-    <input type="hidden" name="form-name" value="contact" />
-    <input type="text" name="name" />
-    <input type="email" name="email" />
-    <input type="text" name="company" />
-    <input type="text" name="phone" />
+  <!-- Netlify Forms Detection -->
+  <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+    <input name="name" type="text" />
+    <input name="email" type="email" />
+    <input name="company" type="text" />
+    <input name="phone" type="tel" />
     <select name="service">
+      <option value="">Select a role</option>
       <option value="fractional-cfo">Fractional CFO + AI</option>
       <option value="fractional-cto">Fractional CTO + AI</option>
       <option value="fractional-cmo">Fractional CMO + AI</option>
@@ -20,6 +20,7 @@
       <option value="unsure">Not Sure Yet</option>
     </select>
     <textarea name="message"></textarea>
+    <div netlify-recaptcha="true"></div>
   </form>
 </body>
 </html>
