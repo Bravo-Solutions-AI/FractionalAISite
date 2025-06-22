@@ -53,8 +53,8 @@ export default function ContactPage() {
       {/* Hidden form for Netlify detection */}
       <form 
         name="contact" 
-        netlify 
-        netlify-honeypot="bot-field" 
+        data-netlify="true"
+        data-netlify-honeypot="bot-field" 
         hidden
       >
         <input type="text" name="name" />
