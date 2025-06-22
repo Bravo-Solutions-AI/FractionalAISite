@@ -22,7 +22,7 @@ export default function ContactPage() {
     const formData = new FormData(form)
     
     try {
-      const response = await fetch('/', {
+      const response = await fetch('/__forms.html', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: new URLSearchParams(formData as any).toString()
@@ -50,27 +50,6 @@ export default function ContactPage() {
     <main className="min-h-screen bg-white">
       <Navigation />
       
-      {/* Hidden form for Netlify detection */}
-      <form 
-        name="contact" 
-        data-netlify="true"
-        data-netlify-honeypot="bot-field" 
-        hidden
-      >
-        <input type="text" name="name" />
-        <input type="email" name="email" />
-        <input type="text" name="company" />
-        <input type="text" name="phone" />
-        <select name="service">
-          <option value="fractional-cfo">Fractional CFO + AI</option>
-          <option value="fractional-cto">Fractional CTO + AI</option>
-          <option value="fractional-cmo">Fractional CMO + AI</option>
-          <option value="fractional-coo">Fractional COO + AI</option>
-          <option value="multiple">Multiple Roles</option>
-          <option value="unsure">Not Sure Yet</option>
-        </select>
-        <textarea name="message"></textarea>
-      </form>
       
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-white via-mono-25 to-white pt-32 pb-12 relative overflow-hidden">
@@ -186,8 +165,7 @@ export default function ContactPage() {
                   <form 
                     name="contact"
                     method="POST"
-                    action="/success"
-                    data-netlify="true"
+                    action="/__forms.html"
                     onSubmit={handleSubmit} 
                     className="space-y-6"
                   >
