@@ -4,46 +4,46 @@ import Footer from '@/components/Footer'
 const leadership = [
   {
     name: "Dr. Sarah Kim",
-    role: "Founder & Managing Partner",
-    background: "Former Chief AI Officer at Google Cloud",
-    credentials: "PhD in Machine Learning, Stanford University",
-    experience: "15+ years in enterprise AI",
-    expertise: ["AI Strategy", "Executive Leadership", "Technology Transformation"]
+    role: "Fractional CFO + AI Practice Lead",
+    background: "Former CFO & Chief AI Officer at Fortune 500",
+    credentials: "MBA Harvard, MS Data Science Stanford",
+    experience: "Built AI-powered finance systems saving $50M+ annually",
+    expertise: ["Financial AI Automation", "Predictive Analytics", "Risk Modeling"]
   },
   {
     name: "Marcus Chen", 
-    role: "Partner, Engineering",
-    background: "Former Principal Engineer at Amazon AI",
+    role: "Fractional CTO + AI Engineering Lead",
+    background: "Former CTO at multiple AI-first startups",
     credentials: "MS Computer Science, MIT",
-    experience: "12+ years scaling AI systems",
-    expertise: ["ML Engineering", "System Architecture", "Team Building"]
+    experience: "Deployed 100+ production AI systems",
+    expertise: ["AI Infrastructure", "Automation Architecture", "Dev Team AI Training"]
   },
   {
     name: "Dr. Elena Rodriguez",
-    role: "Partner, Research & Innovation", 
-    background: "Former Senior Scientist at Facebook AI Research",
-    credentials: "PhD in Natural Language Processing, CMU",
-    experience: "50+ published research papers",
-    expertise: ["AI Research", "NLP", "Innovation Strategy"]
+    role: "Fractional CMO + AI Marketing Lead", 
+    background: "Former CMO & Head of Marketing AI at Tech Unicorns",
+    credentials: "PhD Marketing Analytics, Wharton",
+    experience: "Automated marketing ops for 50+ companies",
+    expertise: ["Marketing Automation", "AI Personalization", "Predictive Customer Analytics"]
   }
 ]
 
 const values = [
   {
-    title: "Executive Excellence",
-    description: "We bring senior-level expertise and strategic thinking to every engagement, ensuring decisions are made at the appropriate level."
+    title: "Implementation Over Strategy",
+    description: "We don't just create AI roadmaps—we build and deploy the solutions. Your fractional leader rolls up their sleeves and implements alongside your team."
   },
   {
-    title: "Results-Driven",
-    description: "Our success is measured by your business outcomes. We focus on delivering measurable value and sustainable competitive advantages."
+    title: "Dual Expertise Required",
+    description: "Every fractional leader must excel in their C-suite role AND have hands-on AI implementation experience. No exceptions."
   },
   {
-    title: "Knowledge Transfer",
-    description: "We build capabilities within your organization, ensuring long-term success and independence in AI initiatives."
+    title: "Automation First",
+    description: "We measure success by how much manual work we eliminate. Every engagement targets specific processes for AI automation."
   },
   {
-    title: "Industry Focus",
-    description: "Deep expertise in specific verticals allows us to understand your unique challenges and regulatory requirements."
+    title: "Tools You Own",
+    description: "All AI systems and automations we build belong to you. No vendor lock-in, no ongoing licensing fees—just solutions that work."
   }
 ]
 
@@ -61,8 +61,9 @@ export default function AboutPage() {
               <span className="block text-gradient-cool font-light mt-2">Fractional AI Partners</span>
             </h1>
             <p className="text-large text-mono-700 leading-relaxed max-w-3xl">
-              We are senior AI executives and practitioners who have built and scaled AI capabilities 
-              at the world's leading technology companies. Now we bring that expertise directly to your organization.
+              We're fractional CFOs, CTOs, CMOs, and COOs who don't just advise—we implement. 
+              Our leaders combine C-suite expertise with hands-on AI implementation skills, building 
+              automation solutions that transform how your business operates.
             </p>
           </div>
         </div>
@@ -75,15 +76,16 @@ export default function AboutPage() {
             <div>
               <h2 className="text-3xl font-semibold text-primary-900 mb-6">Our Mission</h2>
               <p className="text-lg text-primary-600 leading-relaxed mb-8">
-                To democratize access to world-class AI leadership and expertise, enabling organizations 
-                of all sizes to successfully implement and scale artificial intelligence capabilities.
+                To provide fractional C-suite leaders who bring AI implementation expertise. While traditional 
+                fractional CFOs provide financial analysis, ours also build AI-powered forecasting systems. 
+                Where typical CTOs plan tech strategy, ours implement AI automation across your stack.
               </p>
               
               <h2 className="text-3xl font-semibold text-primary-900 mb-6">Our Approach</h2>
               <p className="text-lg text-primary-600 leading-relaxed">
-                We serve as your fractional AI executives, providing strategic guidance, hands-on implementation, 
-                and organizational development. Our team integrates seamlessly with your leadership to drive 
-                successful AI transformation.
+                Every fractional leader comes with an AI implementation team. Your fractional CFO doesn't just 
+                analyze finances—they deploy AI tools for automated reporting and predictive analytics. Your 
+                fractional CTO builds AI-first architectures and automates your development workflows.
               </p>
             </div>
             
@@ -185,7 +187,7 @@ export default function AboutPage() {
               Ready to Work Together?
             </h2>
             <p className="text-xl text-primary-600 mb-8">
-              Let's discuss how our fractional AI executive services can accelerate your AI transformation.
+              Let's discuss how our fractional leaders can bring both C-suite expertise and AI implementation to transform your operations.
             </p>
             <a href="/contact" className="btn-primary">
               Schedule a Consultation

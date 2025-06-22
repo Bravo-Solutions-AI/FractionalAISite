@@ -2,128 +2,128 @@ import { CheckCircleIcon, ArrowRightIcon, LightningIcon, BrainIcon, RocketIcon, 
 
 const services = [
   {
-    title: "AI Discovery Sprint",
-    subtitle: "Strategic Foundation",
-    duration: "2-4 weeks",
+    title: "Fractional CFO + AI",
+    subtitle: "Finance Automation",
+    duration: "3-12 months",
     pricing: "Contact for pricing",
-    description: "Comprehensive AI opportunity assessment and strategic roadmap tailored to your industry and business objectives.",
+    description: "Get a fractional CFO who implements AI-powered financial automation, from forecasting to reporting and compliance.",
     icon: BrainIcon,
     features: [
-      "Executive stakeholder interviews",
-      "Technical infrastructure assessment", 
-      "AI opportunity identification & prioritization",
-      "Feasibility studies with risk analysis",
-      "ROI projections and business case development",
-      "12-month strategic AI roadmap",
-      "Technology stack recommendations"
+      "AI-powered financial forecasting & modeling",
+      "Automated reporting & dashboard systems", 
+      "Intelligent expense management automation",
+      "Cash flow optimization with predictive analytics",
+      "Automated compliance & risk monitoring",
+      "AI-driven investment analysis",
+      "Real-time financial insights platform"
     ],
     deliverables: [
-      "AI Strategy Document (50+ pages)",
-      "Technical Architecture Blueprint", 
-      "Implementation Roadmap",
-      "Executive Presentation"
+      "Automated Financial Dashboard",
+      "AI Forecasting Models", 
+      "Process Automation Playbook",
+      "Custom Financial AI Tools"
     ],
-    ideal: "Companies new to AI or planning comprehensive AI transformation"
+    ideal: "Growing companies needing strategic finance leadership with modern automation"
   },
   {
-    title: "AI MVP Development", 
-    subtitle: "Proof of Value",
-    duration: "6-12 weeks",
+    title: "Fractional CTO + AI", 
+    subtitle: "Tech Transformation",
+    duration: "3-12 months",
     pricing: "Contact for pricing",
-    description: "Rapid development of production-ready AI solutions with performance benchmarking and integration planning.",
+    description: "Hire a fractional CTO who builds AI-first technology strategies and implements automation across your tech stack.",
     icon: LightningIcon,
     features: [
-      "Requirements gathering & solution design",
-      "Data pipeline development",
-      "ML model development & training", 
-      "API development & documentation",
-      "Performance testing & optimization",
-      "Security & compliance implementation",
-      "Deployment to staging environment"
+      "AI-powered development workflows",
+      "Automated testing & deployment pipelines",
+      "Intelligent monitoring & alerting systems", 
+      "AI code review & optimization tools",
+      "Automated security scanning & remediation",
+      "Machine learning infrastructure setup",
+      "Team AI skills development program"
     ],
     deliverables: [
-      "Production-ready AI solution",
-      "Technical Documentation",
-      "Performance Benchmarks",
-      "Integration Guidelines"
+      "AI-Enhanced Tech Stack",
+      "Automation Playbooks",
+      "ML Infrastructure",
+      "Team Training Materials"
     ],
-    ideal: "Teams ready to build their first AI solution or validate a specific use case",
+    ideal: "Companies modernizing their technology with AI-driven development practices",
     popular: true
   },
   {
-    title: "Embedded AI Team",
-    subtitle: "Scale & Optimize", 
+    title: "Fractional CMO + AI",
+    subtitle: "Marketing Automation", 
     duration: "3-12 months",
     pricing: "Contact for pricing",
-    description: "Dedicated AI experts integrated into your team for ongoing development, optimization, and knowledge transfer.",
+    description: "Get a fractional CMO who leverages AI to automate marketing operations and personalize customer experiences at scale.",
     icon: RocketIcon,
     features: [
-      "Dedicated senior AI engineers",
-      "Full-stack AI development",
-      "Continuous model improvement",
-      "A/B testing & optimization",
-      "Team training & mentoring",
-      "Code reviews & best practices",
-      "Technology stack evolution"
+      "AI-powered content generation systems",
+      "Automated customer segmentation",
+      "Predictive lead scoring & routing",
+      "Personalization engines for campaigns",
+      "Automated social media management",
+      "AI-driven SEO & SEM optimization",
+      "Customer journey automation"
     ],
     deliverables: [
-      "Multiple AI Solutions", 
-      "Trained Internal Team",
-      "Operational Playbooks",
-      "Performance Dashboards"
+      "Marketing Automation Platform", 
+      "AI Content Systems",
+      "Personalization Engine",
+      "Performance Analytics"
     ],
-    ideal: "Organizations scaling AI capabilities with ongoing optimization needs"
+    ideal: "Businesses ready to scale marketing with AI-powered automation and insights"
   },
   {
-    title: "AI Innovation Accelerator",
-    subtitle: "Enterprise Transformation",
-    duration: "6-18 months", 
+    title: "Fractional COO + AI",
+    subtitle: "Operations Automation",
+    duration: "3-12 months", 
     pricing: "Contact for pricing",
-    description: "Comprehensive AI transformation program with multiple use cases, organizational change management, and governance.",
+    description: "Hire a fractional COO who implements AI to streamline operations, optimize supply chains, and automate workflows.",
     icon: TargetIcon,
     features: [
-      "Multi-workstream AI implementation",
-      "Organizational change management",
-      "AI governance & ethics framework",
-      "Center of Excellence establishment",
-      "Enterprise-wide training programs",
-      "Vendor management & partnerships",
-      "Success metrics & KPI tracking"
+      "AI-powered process optimization",
+      "Intelligent workflow automation",
+      "Predictive maintenance systems",
+      "Supply chain AI optimization",
+      "Automated quality control",
+      "Resource allocation algorithms",
+      "Real-time operations analytics"
     ],
     deliverables: [
-      "Enterprise AI Platform",
-      "Governance Framework", 
-      "Training Academy",
-      "Success Metrics Dashboard"
+      "Automated Operations Platform",
+      "Process Optimization Models", 
+      "Workflow Automation Tools",
+      "Operations Dashboard"
     ],
-    ideal: "Large enterprises pursuing organization-wide AI transformation"
+    ideal: "Companies seeking to transform operations with AI-driven efficiency gains"
   }
 ]
 
 const processSteps = [
   {
     step: "01",
-    title: "Discovery & Planning",
-    description: "We start by understanding your business, challenges, and objectives through stakeholder interviews and technical assessments.",
-    duration: "Week 1-2"
+    title: "Match & Assess",
+    description: "We match you with a fractional leader who has deep AI expertise in your specific industry and challenges.",
+    duration: "Week 1"
   },
   {
     step: "02", 
-    title: "Solution Design",
-    description: "Our experts design the optimal AI solution architecture, technology stack, and implementation approach for your needs.",
-    duration: "Week 2-3"
+    title: "Automate & Build",
+    description: "Your fractional leader identifies automation opportunities and begins implementing AI solutions immediately.",
+    duration: "Week 2-4"
   },
   {
     step: "03",
-    title: "Development & Testing", 
-    description: "Rapid development using proven frameworks, with continuous testing and optimization throughout the process.",
-    duration: "Week 3-8"
+    title: "Deploy & Scale", 
+    description: "AI systems go live with continuous optimization, turning manual processes into automated workflows.",
+    duration: "Week 4-8"
   },
   {
     step: "04",
-    title: "Deployment & Training",
-    description: "Production deployment with comprehensive team training and knowledge transfer for long-term success.",
-    duration: "Week 8-10"
+    title: "Measure & Grow",
+    description: "Track ROI as automation reduces costs and your fractional leader scales successful solutions across the organization.",
+    duration: "Ongoing"
   }
 ]
 
@@ -138,13 +138,13 @@ export default function Services() {
             <span>Flexible Engagement Models</span>
           </div>
           <h2 className="text-4xl lg:text-5xl font-bold text-primary-900 mb-6">
-            AI Solutions That Scale
+            Fractional Leaders Who
             <br />
-            <span className="text-gradient">With Your Business</span>
+            <span className="text-gradient">Build AI Solutions</span>
           </h2>
           <p className="text-xl text-primary-600 max-w-3xl mx-auto leading-relaxed">
-            From strategic planning to full-scale implementation, we offer comprehensive AI services 
-            designed to deliver measurable business impact at every stage of your AI journey.
+            Hire fractional CFOs, CTOs, CMOs, and COOs who don't just advise—they implement 
+            cutting-edge AI automation that transforms how your business operates.
           </p>
         </div>
 

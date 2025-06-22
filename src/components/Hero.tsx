@@ -21,13 +21,13 @@ export default function Hero() {
               </div>
               
               <h1 className="mb-8 font-display font-extralight tracking-tighter">
-                Access Executive Expertise
-                <span className="block text-gradient-cool font-light mt-2">When You Need It, How You Need It</span>
+                AI-Powered Fractional Leaders
+                <span className="block text-gradient-cool font-light mt-2">Transform Your Business with Automation</span>
               </h1>
               
               <p className="text-large mb-10 max-w-2xl leading-relaxed text-mono-700">
-                Get fractional CFO, CTO, CMO, and other C-level expertise enhanced with AI insights. 
-                Performance-based engagements that deliver measurable results for growing businesses.
+                Hire fractional CFOs, CTOs, and CMOs who bring cutting-edge AI automation expertise. 
+                Our leaders don't just advise—they implement AI solutions that transform operations and drive growth.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4">
@@ -121,9 +121,9 @@ export default function Hero() {
                       <span className="text-2xl font-light text-accent-cool-600">01</span>
                     </div>
                   </div>
-                  <h3 className="text-xl font-semibold text-mono-900 mb-4">Smart Matching</h3>
+                  <h3 className="text-xl font-semibold text-mono-900 mb-4">AI-First Leaders</h3>
                   <p className="text-mono-600 leading-relaxed text-sm max-w-xs mx-auto">
-                    AI matches you with vetted fractional executives who specialize in your industry and challenges.
+                    Connect with fractional CFOs and CTOs who specialize in AI automation for your industry.
                   </p>
                 </div>
                 
@@ -134,9 +134,9 @@ export default function Hero() {
                       <span className="text-2xl font-light text-accent-cool-500">02</span>
                     </div>
                   </div>
-                  <h3 className="text-xl font-semibold text-mono-900 mb-4">Performance-Based</h3>
+                  <h3 className="text-xl font-semibold text-mono-900 mb-4">Implement & Automate</h3>
                   <p className="text-mono-600 leading-relaxed text-sm max-w-xs mx-auto">
-                    Pay only for measurable results with our engagement assurance model and deliverable-focused approach.
+                    Our fractional leaders build AI-powered systems that automate workflows and scale your operations.
                   </p>
                 </div>
                 
@@ -147,9 +147,9 @@ export default function Hero() {
                       <span className="text-2xl font-light text-accent-cool-400">03</span>
                     </div>
                   </div>
-                  <h3 className="text-xl font-semibold text-mono-900 mb-4">Data-Driven Insights</h3>
+                  <h3 className="text-xl font-semibold text-mono-900 mb-4">Measurable ROI</h3>
                   <p className="text-mono-600 leading-relaxed text-sm max-w-xs mx-auto">
-                    AI-powered diagnostics and analytics guide strategy development and decision-making.
+                    Track real-time impact as AI automation reduces costs and accelerates growth.
                   </p>
                 </div>
               </div>

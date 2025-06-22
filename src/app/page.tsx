@@ -66,7 +66,7 @@ export default function Home() {
         <div className="container">
           <div className="text-center mb-12">
             <h2 className="mb-6 font-display font-extralight tracking-tighter">
-              Fractional Executive Services Enhanced with AI
+              Fractional Leadership Services Enhanced with AI
             </h2>
             <p className="text-large max-w-3xl mx-auto leading-relaxed">
               Access C-level expertise precisely when you need it, enhanced with AI-powered insights and performance-based engagements.
@@ -277,7 +277,7 @@ export default function Home() {
                     <div className="w-3 h-3 bg-white rounded-full"></div>
                   </div>
                   <div>
-                    <h4 className="font-medium text-mono-900 mb-2">Executive-Level Expertise</h4>
+                    <h4 className="font-medium text-mono-900 mb-2">C-Level Leadership</h4>
                     <p className="text-mono-600 font-light">Access seasoned C-level professionals enhanced with AI insights without full-time overhead</p>
                   </div>
                 </div>
@@ -532,7 +532,7 @@ export default function Home() {
             {/* Main CTA */}
             <div className="text-center mb-16">
               <h2 className="mb-6 font-display font-extralight tracking-tighter">
-                Ready to Access Executive Expertise On-Demand?
+                Ready to Access AI-Powered Expertise On-Demand?
               </h2>
               <p className="text-large mb-12 max-w-3xl mx-auto leading-relaxed">
                 Join growing businesses who leverage our AI-enhanced fractional consulting to get C-level expertise precisely when they need it. 
@@ -541,10 +541,10 @@ export default function Home() {
               
               <div className="flex flex-col sm:flex-row gap-6 justify-center">
                 <a href="/contact" className="btn-accent hover-scale text-lg px-12 py-5">
-                  Find Your Fractional Executive
+                  Find Your Fractional Leader
                 </a>
                 <a href="/services" className="btn-secondary hover-scale text-lg px-12 py-5">
-                  Explore Executive Services
+                  Explore Our Services
                 </a>
               </div>
             </div>

@@ -3,56 +3,56 @@ import { LightningIcon, TargetIcon, TrendingUpIcon, AcademicCapIcon, AwardIcon, 
 const advantages = [
   {
     icon: LightningIcon,
-    title: "Time-to-Value Guarantee",
-    description: "Deliver working AI solutions 3x faster than traditional hiring with our proven methodologies and pre-built frameworks."
+    title: "AI Implementation, Not Just Strategy",
+    description: "Our fractional leaders build and deploy AI automation systems—they don't just create PowerPoints."
   },
   {
     icon: TargetIcon,
-    title: "Industry-Specific Expertise", 
-    description: "Pre-trained models and frameworks tailored for key verticals including healthcare, finance, and manufacturing."
+    title: "Automation-First Approach", 
+    description: "Every fractional leader specializes in automating workflows, from financial forecasting to marketing campaigns."
   },
   {
     icon: TrendingUpIcon,
-    title: "Flexible Engagement Models",
-    description: "Scale up or down based on project needs. From short sprints to long-term partnerships, we adapt to your requirements."
+    title: "Immediate ROI Focus",
+    description: "Start seeing cost reductions and efficiency gains within weeks as AI automation eliminates manual work."
   },
   {
     icon: AcademicCapIcon,
-    title: "Knowledge Transfer Focus", 
-    description: "Ensure your team can maintain and evolve solutions independently through comprehensive training and documentation."
+    title: "Your Team Learns AI", 
+    description: "Our fractional leaders train your team to work with AI tools, creating lasting organizational capability."
   },
   {
     icon: AwardIcon,
-    title: "Proven Track Record",
-    description: "95%+ client success rate with measurable ROI and successful deployments across diverse industries."
+    title: "Proven AI Track Record",
+    description: "Our fractional leaders have deployed 100+ AI automation projects with measurable efficiency gains."
   },
   {
     icon: ShieldCheckIcon,
-    title: "Risk Mitigation",
-    description: "Pre-vetted AI experts, rigorous quality control, and clear IP protection ensure successful project outcomes."
+    title: "No Lock-In, Full Ownership",
+    description: "All AI systems and automations we build are yours to keep—no vendor dependencies or ongoing fees."
   }
 ]
 
 const teamRoles = [
   {
-    role: "Senior AI Architect",
-    rate: "$15,000 - $20,000/month",
-    description: "Strategic AI leadership and system design"
+    role: "Fractional CFO + AI",
+    rate: "$8,000 - $15,000/month",
+    description: "Finance leadership with AI automation expertise"
   },
   {
-    role: "ML Engineer", 
-    rate: "$10,000 - $15,000/month",
-    description: "Model development and production deployment"
+    role: "Fractional CTO + AI", 
+    rate: "$10,000 - $18,000/month",
+    description: "Tech strategy with AI implementation capabilities"
   },
   {
-    role: "Data Scientist",
-    rate: "$8,000 - $12,000/month", 
-    description: "Data analysis and model optimization"
+    role: "Fractional CMO + AI",
+    rate: "$8,000 - $15,000/month", 
+    description: "Marketing leadership with automation focus"
   },
   {
-    role: "AI Product Manager",
-    rate: "$10,000 - $15,000/month",
-    description: "Product strategy and stakeholder alignment"
+    role: "Fractional COO + AI",
+    rate: "$10,000 - $18,000/month",
+    description: "Operations expertise with AI workflow automation"
   }
 ]
 
@@ -62,10 +62,10 @@ export default function WhyChooseUs() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Why Choose Fractional AI Partners?
+            Why Our AI-Powered Fractional Leaders?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            We're the "McKinsey of AI" - combining strategic consulting with hands-on implementation.
+            Unlike traditional fractional hires, our leaders bring deep AI automation expertise to transform your operations.
           </p>
         </div>
 
@@ -86,7 +86,7 @@ export default function WhyChooseUs() {
 
         <div className="bg-gray-50 rounded-2xl p-8">
           <h3 className="text-2xl font-bold text-gray-900 text-center mb-8">
-            Our Expert Team Composition
+            Fractional Leaders with AI Expertise
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {teamRoles.map((team, index) => (

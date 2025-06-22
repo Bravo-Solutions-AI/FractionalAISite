@@ -2,58 +2,58 @@ import { StarIcon } from './icons'
 
 const testimonials = [
   {
-    content: "Fractional AI Partners transformed our customer service with an AI chatbot that reduced response times by 80%. Their team understood our business needs immediately and delivered beyond expectations.",
+    content: "Our fractional CFO didn't just analyze our finances—they built an AI forecasting system that updates in real-time. We now have predictive cash flow models with 97% accuracy, saving us 30 hours of manual work weekly.",
     author: "Sarah Chen",
-    role: "CTO",
+    role: "CEO",
     company: "TechFlow Solutions",
     avatar: "SC",
     rating: 5,
-    results: "80% faster response times"
+    results: "30 hours/week saved"
   },
   {
-    content: "We went from concept to production AI in just 6 weeks. The knowledge transfer was exceptional - our team now maintains and improves the system independently.",
+    content: "We hired a fractional CTO expecting strategy meetings. Instead, they deployed AI-powered CI/CD pipelines that cut our deployment time by 75%. Their team automated our entire testing suite in just 4 weeks.",
     author: "Michael Rodriguez",
-    role: "VP of Operations", 
+    role: "VP of Engineering", 
     company: "DataStream Corp",
     avatar: "MR",
     rating: 5,
-    results: "6 weeks to production"
+    results: "75% faster deployments"
   },
   {
-    content: "The ROI was immediate. Our AI-powered demand forecasting system reduced inventory costs by 35% in the first quarter alone. Worth every penny.",
+    content: "Our fractional CMO implemented AI content generation and automated lead scoring. Marketing efficiency increased 3x, and we're generating personalized campaigns at scale. This isn't consulting—it's transformation.",
     author: "Emma Thompson",
-    role: "Chief Data Officer",
+    role: "Head of Growth",
     company: "RetailMax",
     avatar: "ET",
     rating: 5,
-    results: "35% cost reduction"
+    results: "3x marketing efficiency"
   }
 ]
 
 const caseStudies = [
   {
-    title: "Healthcare AI Diagnostic Assistant",
-    industry: "Healthcare",
-    challenge: "Manual diagnosis taking 2-3 hours per case",
-    solution: "AI-powered diagnostic assistant with medical imaging analysis",
-    results: ["90% accuracy improvement", "5x faster diagnosis", "$2M annual savings"],
-    tech: ["Computer Vision", "Deep Learning", "Medical Imaging"]
+    title: "CFO + AI: Automated Financial Operations",
+    industry: "SaaS",
+    challenge: "Manual financial reporting taking 40+ hours monthly",
+    solution: "Fractional CFO deployed AI-powered reporting dashboards and predictive analytics",
+    results: ["Real-time financial insights", "95% reduction in reporting time", "$400K annual savings"],
+    tech: ["AI Forecasting", "Automated Dashboards", "Anomaly Detection"]
   },
   {
-    title: "Financial Fraud Detection System", 
+    title: "CTO + AI: Development Automation", 
     industry: "FinTech",
-    challenge: "Rising fraud losses and false positives",
-    solution: "Real-time ML fraud detection with behavioral analysis",
-    results: ["95% fraud detection rate", "60% reduction in false positives", "$5M loss prevention"],
-    tech: ["Machine Learning", "Real-time Analytics", "Behavioral Analysis"]
+    challenge: "Slow release cycles and manual code reviews",
+    solution: "Fractional CTO implemented AI-driven development workflows and automated testing",
+    results: ["3x faster code shipping", "80% fewer production bugs", "24/7 automated monitoring"],
+    tech: ["AI Code Review", "Automated Testing", "Predictive Monitoring"]
   },
   {
-    title: "Supply Chain Optimization Platform",
+    title: "COO + AI: Operations Transformation",
     industry: "Manufacturing", 
-    challenge: "Inefficient inventory management and demand forecasting",
-    solution: "AI-driven supply chain optimization with predictive analytics",
-    results: ["40% inventory reduction", "25% cost savings", "99% forecast accuracy"],
-    tech: ["Predictive Analytics", "Optimization Algorithms", "IoT Integration"]
+    challenge: "Inefficient workflows and manual quality control",
+    solution: "Fractional COO deployed AI process optimization and computer vision QC",
+    results: ["60% efficiency gain", "90% defect detection", "$2M cost reduction"],
+    tech: ["Process Automation", "Computer Vision", "Workflow AI"]
   }
 ]
 
@@ -63,10 +63,10 @@ export default function Testimonials() {
       <div className="container">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-primary-900 mb-6">
-            Proven Results, Happy Clients
+            Leaders Who Build, Not Just Advise
           </h2>
           <p className="text-xl text-primary-600 max-w-3xl mx-auto">
-            See how we've helped companies across industries deploy AI solutions that drive real business impact.
+            See how our fractional executives deploy AI solutions that transform operations from day one.
           </p>
         </div>
 
@@ -105,7 +105,7 @@ export default function Testimonials() {
         {/* Case Studies */}
         <div>
           <h3 className="text-3xl font-bold text-primary-900 text-center mb-12">
-            Featured Case Studies
+            AI Implementation Case Studies
           </h3>
           
           <div className="grid lg:grid-cols-3 gap-8">
@@ -127,13 +127,13 @@ export default function Testimonials() {
                   </div>
                   
                   <div>
-                    <h5 className="font-semibold text-primary-800 mb-2">Solution</h5>
+                    <h5 className="font-semibold text-primary-800 mb-2">What We Built</h5>
                     <p className="text-primary-600 text-sm">{study.solution}</p>
                   </div>
                 </div>
                 
                 <div className="mb-6">
-                  <h5 className="font-semibold text-primary-800 mb-3">Results</h5>
+                  <h5 className="font-semibold text-primary-800 mb-3">Measurable Impact</h5>
                   <div className="space-y-2">
                     {study.results.map((result, resultIndex) => (
                       <div key={resultIndex} className="flex items-center space-x-2">
@@ -164,8 +164,11 @@ export default function Testimonials() {
         
         {/* CTA */}
         <div className="text-center mt-16">
+          <h4 className="text-xl text-primary-700 mb-6">
+            Ready for fractional leaders who implement AI solutions?
+          </h4>
           <button className="btn-primary btn-lg">
-            See All Case Studies
+            See How We Can Help
           </button>
         </div>
       </div>
